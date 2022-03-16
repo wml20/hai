@@ -159,21 +159,7 @@ $ gunzip *.gz
 It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-TaPR]%20)
 
 
-        
-### HAICon (Online AI Competition for ICS Threat Detection)
- * HAICon 2020 : https://dacon.io/competitions/official/235624/overview/description
- * HAICon 2021 : https://dacon.io/en/competitions/official/235757/overview/description
-        
-## Change Log
-Please refer to the technical manual for the detailed changes 
- * HAI 22.04 release (2021-04-XX)
- * HAI 21.03 release (2021-03-25)
- * HAI 20.07 release (2020-07-22) 
- * Initial release (2020-02-07) 
 
-## Contributors
-Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min 
-The Affiliated Institute of ETRI, Daejeon, South Korea.
 
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
@@ -192,19 +178,69 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike License (
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
 ### Anomaly Detection 
-*
+#### 2022 
+1. [Benchmarking machine learning based detection of cyber attacks for critical infrastructure][AD_22_03]
+2. [A Hybrid Algorithm Incorporating Vector Quantization and One-Class Support Vector Machine for industrial Anomaly Detection][AD_22_02]
+3. [Variational restricted Boltzmann machines to automated anomaly detection][AD_22_01]
+#### 2021
+1. [Anomaly detection based on temporal behavior monitoring in programmable logic controllers][AD_21_11]
+2. [Research on improvement of anomaly detection performance in industrial control systems][AD_21_10]
+3. [E-sfd: Explainable sensor fault detection in the ics anomaly detection system][AD_21_09]
+4. [Stacked-autoencoder based anomaly detection with industrial control system][AD_21_08]
+5. [Improved mitigation of cyber threats in iiot for smart cities: A new-era approach and scheme][AD_21_07]
+6. [Towards building intrusion detection systems for multivariate time-series data][AD_21_06]
+7. [Unknown payload anomaly detection based on format and field semantics inference in cyber-physical infrastructure systems][AD_21_05]
+8. [Revitalizing self-organizing map: Anomaly detection using forecasting error patterns][AD_21_04]
+9. [Cluster-based deep one-class classification model for anomaly detection][AD_21_03]
+10. [Measurement data intrusion detection in industrial control systems based on unsupervised learning][AD_21_02]
+11. [A machine learning approach for anomaly detection in industrial control systems based on measurement data][AD_21_01]
+
+#### 2022
+1. [Anomaly detection in time-series data environment][AD_20_02]
+2. [Detecting anomalies in time-series data using unsupervised learning and analysis on infrequent signatures][AD_20_01]
+
+[AD_22_03]: https://ieeexplore.ieee.org/abstract/document/9687293
+[AD_22_02]: https://ieeexplore.ieee.org/abstract/document/9693317
+[AD_22_01]: https://link.springer.com/article/10.1007/s00521-022-07060-4
+[AD_21_11]: https://www.mdpi.com/2079-9292/10/10/1218
+[AD_21_10]: https://link.springer.com/chapter/10.1007/978-3-030-89432-0_7
+[AD_21_09]: https://ieeexplore.ieee.org/document/9568906
+[AD_21_08]: https://www.scirp.org/journal/paperinformation.aspx?paperid=106463
+[AD_21_07]: https://www.mdpi.com/1424-8220/21/6/1976
+[AD_21_06]: https://link.springer.com/chapter/10.1007/978-3-030-96057-5_4
+[AD_21_05]: https://ieeexplore.ieee.org/document/9430502
+[AD_21_04]: https://link.springer.com/chapter/10.1007/978-3-030-78120-0_25
+[AD_21_03]: https://jit.ndhu.edu.tw/article/view/2553
+[AD_21_02]: https://www.aimspress.com/article/doi/10.3934/aci.2021004
+[AD_21_01]: https://www.mdpi.com/2079-9292/10/4/407
+[AD_20_02]: https://dl.acm.org/doi/abs/10.1145/3440943.3444353
+[AD_20_01]: https://www.koreascience.or.kr/article/JAKO202009252091939.page
+
+
+
 ### Testbed/Dataset 
-1. [Expansion of ICS testbed for security validation based on MITRE ATT&CK techniques][TB01] 
-2. [Expanding a programmable cps testbed for network attack analysis][TB02]
-3. [Co-occurrence based security event analysis and visualization for cyber physical systems][TB03]
-4. [Probabilistic attack sequence generation and execution based on mitre att&ck for ics datasets][TB04]
+        #### 2021 
+1. [Probabilistic attack sequence generation and execution based on mitre att&ck for ics datasets][TB_21_01]
+
+        #### 2020
+1. [Expansion of ICS testbed for security validation based on MITRE ATT&CK techniques][TB_20_01] 
+2. [Expanding a programmable cps testbed for network attack analysis][TB_20_02]
+3. [Co-occurrence based security event analysis and visualization for cyber physical systems][TB_20_03]
+
+[TB_21_01]: https://dl.acm.org/doi/abs/10.1145/3474718.3474722 "CSET 2021"  
+[TB_20_01]: https://www.usenix.org/conference/cset20/presentation/choi "CSET 2020"
+[TB_20_02]: https://dl.acm.org/doi/abs/10.1145/3320269.3405447 "Asis CCS 2020"
+[TB_20_03]: https://link.springer.com/chapter/10.1007/978-3-030-50732-9_70 "HCI 2020"
+      
         
-[TB01]: https://www.usenix.org/conference/cset20/presentation/choi "CSET 2020"
-[TB02]: https://dl.acm.org/doi/abs/10.1145/3320269.3405447 "Asis CCS 2020"
-[TB03]: https://link.springer.com/chapter/10.1007/978-3-030-50732-9_70 "HCI 2020"
-[TB04]: https://dl.acm.org/doi/abs/10.1145/3474718.3474722 "CSET 2021"        
-
-
+### Competitions (Online AI Competition for ICS Threat Detection)
+ * HAICon 2020 : https://dacon.io/competitions/official/235624/overview/description
+ * HAICon 2021 : https://dacon.io/en/competitions/official/235757/overview/description
+        
+## Contributors
+Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min 
+The Affiliated Institute of ETRI, Daejeon, South Korea.
+        
 ## Dataset Metadata
 The following table is necessary for this dataset to be indexed by search
 engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
