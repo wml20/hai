@@ -25,7 +25,9 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 - The first version of HAI dataset, HAI 1.0,  was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from both normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
 
--  HAI 21.03 was released in 2021, and is based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This provided more quantitative information and covers a variety of operational situations and better insights into the dynamic changes of the physical system.
+- HAI 21.03 was released in 2021, and is based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This provided more quantitative information and covers a variety of operational situations and better insights into the dynamic changes of the physical system.
+
+- HAI 22.04 contains more sophisticated attacks that are much more difficult to detect than previous versions. Comparing only the baseline TaPRs of HAICon 2020 and 2021, the detection difficulty is approximately four times higher than that of HAI 21.04.
 
 ## HAI Testbed
 The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
@@ -156,8 +158,7 @@ $ gunzip *.gz
 ## Performance Evaluation
 It is strongly recommended to use the [TaPR (Time-series Aware Precision and Recall)](https://github.com/saurf4ng/TaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other sutides. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-TaPR]%20)
 
-## Projects using the dataset
-Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
+
         
 ### HAICon (Online AI Competition for ICS Threat Detection)
  * HAICon 2020 : https://dacon.io/competitions/official/235624/overview/description
@@ -165,25 +166,43 @@ Here are some projects and experiments that are using or featuring the dataset i
         
 ## Change Log
 Please refer to the technical manual for the detailed changes 
+ * HAI 22.04 release (2021-04-XX)
  * HAI 21.03 release (2021-03-25)
  * HAI 20.07 release (2020-07-22) 
-* Initial release (2020-02-07) 
+ * Initial release (2020-02-07) 
 
-## Authors
-Created by Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun and HyoungChun Kim in the Affiliated Institute of ETRI, Daejeon, South Korea.
+## Contributors
+Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min 
+The Affiliated Institute of ETRI, Daejeon, South Korea.
 
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## References
 1. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][1]", 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET 20), Santa Clara, CA, 2020.
-2. Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Kim, HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
-3. Seungoh Choi, Jeong-Han Yun, Sin-Kyu Kim, "[A Comparison of ICS Datasets for Security Research Based on Attack Paths][3]", In: Luiijf E., Žutautaitė I., Hämmerli B. (eds) Critical Information Infrastructures Security. CRITIS 2018. Lecture Notes in Computer Science, vol 11260. Springer, Cham.
+2. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][2]", 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET 21), Santa Clara, CA, 2020.
+3. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][3]", 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET 20), Santa Clara, CA, 2020.
+4. Hwang, Won-Seok and Yun, Jeong-Han and Kim, Jonguk and Kim, HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
+5. Seungoh Choi, Jeong-Han Yun, Sin-Kyu Kim, "[A Comparison of ICS Datasets for Security Research Based on Attack Paths][3]", In: Luiijf E., Žutautaitė I., Hämmerli B. (eds) Critical Information Infrastructures Security. CRITIS 2018. Lecture Notes in Computer Science, vol 11260. Springer, Cham.
 
 [1]: https://www.usenix.org/conference/cset20/presentation/shin "Dataset paper"
 [2]: https://dl.acm.org/doi/10.1145/3357384.3358118 "TaPR paper"
 [3]: https://link.springer.com/chapter/10.1007/978-3-030-05849-4_12 "ICS Datasets"
 
+## Projects using the dataset
+Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
+### Anomaly Detection 
+*
+### Testbed/Dataset 
+1. [Expansion of ICS testbed for security validation based on MITRE ATT&CK techniques][TB01] 
+2. [Expanding a programmable cps testbed for network attack analysis][TB02]
+3. [Co-occurrence based security event analysis and visualization for cyber physical systems][TB03]
+4. [Probabilistic attack sequence generation and execution based on mitre att&ck for ics datasets][TB04]
+        
+[TB01]: https://www.usenix.org/conference/cset20/presentation/choi "CSET 2020"
+[TB02]: https://dl.acm.org/doi/abs/10.1145/3320269.3405447 "Asis CCS 2020"
+[TB03]: https://link.springer.com/chapter/10.1007/978-3-030-50732-9_70 "HCI 2020"
+[TB04]: https://dl.acm.org/doi/abs/10.1145/3474718.3474722 "CSET 2021"        
 
 
 ## Dataset Metadata
