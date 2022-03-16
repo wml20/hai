@@ -110,7 +110,7 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
              <td align=right>26 hours</td>
              <td align=right>48 MB</td>
         </tr>       
-        <tr bgcolor='#444444'>
+        <tr bgcolor='#123456'>
             <td>Total</td>
             <td align=right>26 hours</td>
             <td align=right>48 MB</td>
