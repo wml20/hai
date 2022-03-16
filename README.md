@@ -61,6 +61,57 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
         </tr>
     </thead>
     <tbody>
+          <tr bgcolor='#dddddd'>
+            <td rowspan=6 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-21.03"> HAI 21.03<a></b> </td>
+            <td rowspan=6> 78 points/sec</td>
+            <td> train1.csv</td>
+             <td align=right>60 hours</td>
+             <td align=right>100 MB</td>
+             <td> test1.csv</td>
+             <td align=right>5 attacks</td>
+             <td align=right>12 hours</td>
+             <td align=right>22 MB</td>
+        </tr>
+          <tr >
+             <td>train2.csv</td>
+             <td align=right>63 hours</td>
+             <td align=right>116 MB</td>
+             <td>test2.csv</td>
+             <td align=right>20 attacks</td>
+             <td align=right>33 hours</td>
+             <td align=right>62 MB</td>
+        </tr>
+        <tr bgcolor='#dddddd'>
+             <td>train3.csv</td>
+             <td align=right>229 hours</td>
+             <td align=right>246 MB</td>
+             <td>test3.csv</td>
+             <td align=right>8 attacks</td>
+             <td align=right>30 hours</td>
+             <td align=right>56 MB</td>
+        </tr>
+        <tr>
+             <td>train4.csv</td>
+             <td align=right>229 hours</td>
+             <td align=right>246 MB</td>
+             <td>test4.csv</td>
+             <td align=right>5 attacks</td>
+             <td align=right>11 hours</td>
+             <td align=right>20 MB</td>
+        </tr>
+          <tr bgcolor='#dddddd'> 
+             <td>train5.csv</td>
+             <td align=right>26 hours</td>
+             <td align=right>48 MB</td>
+             <td rowspan=2 colspan=3> </td>
+
+        </tr>
+             <tr bgcolor='#dddddd'>
+             <td>train6.csv</td>
+             <td align=right>26 hours</td>
+             <td align=right>48 MB</td>
+        </tr>        
+                
         <tr bgcolor='#dddddd'>
             <td rowspan=5 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-21.03"> HAI 21.03<a></b> </td>
             <td rowspan=5> 78 points/sec</td>
