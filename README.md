@@ -230,9 +230,8 @@ Here are some projects and experiments that are using or featuring the dataset i
 [TB_20_01]: https://www.usenix.org/conference/cset20/presentation/choi "CSET 2020"
 [TB_20_02]: https://dl.acm.org/doi/abs/10.1145/3320269.3405447 "Asis CCS 2020"
 [TB_20_03]: https://link.springer.com/chapter/10.1007/978-3-030-50732-9_70 "HCI 2020"
-      
-        
-### Competitions (Online AI Competition for ICS Threat Detection)
+              
+## Competitions (Online AI Competition for ICS Threat Detection)
  * HAICon 2020 : https://dacon.io/competitions/official/235624/overview/description
  * HAICon 2021 : https://dacon.io/en/competitions/official/235757/overview/description
         
