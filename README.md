@@ -114,7 +114,6 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
             <td> Sum </td>
             <td align=right>26 hours</td>
             <td align=right>48 MB</td>
-            
             <td>Sum</td>
              <td align=right>5 attacks</td>
              <td align=right>11 hours</td>
