@@ -62,8 +62,8 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
     </thead>
     <tbody>
           <tr bgcolor='#dddddd'>
-            <td rowspan=6 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-22.03"> HAI 22.03<a></b> </td>
-            <td rowspan=6> 78 points/sec</td>
+            <td rowspan=7 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-22.03"> HAI 22.03<a></b> </td>
+            <td rowspan=7> 78 points/sec</td>
             <td> train1.csv</td>
              <td align=right>60 hours</td>
              <td align=right>100 MB</td>
@@ -109,7 +109,17 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
              <td>train6.csv</td>
              <td align=right>26 hours</td>
              <td align=right>48 MB</td>
-        </tr>          
+        </tr>       
+        <tr bgcolor='#dddddd'>
+            <td> Sum </td>
+            <td align=right>26 hours</td>
+            <td align=right>48 MB</td>
+            
+            <td>Sum</td>
+             <td align=right>5 attacks</td>
+             <td align=right>11 hours</td>
+             <td align=right>20 MB</td>
+        </tr>
         <tr bgcolor='#dddddd'>
             <td rowspan=5 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-21.03"> HAI 21.03<a></b> </td>
             <td rowspan=5> 78 points/sec</td>
