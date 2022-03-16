@@ -195,7 +195,7 @@ Here are some projects and experiments that are using or featuring the dataset i
 10. [Measurement data intrusion detection in industrial control systems based on unsupervised learning][AD_21_02]
 11. [A machine learning approach for anomaly detection in industrial control systems based on measurement data][AD_21_01]
 
-#### 2022
+#### 2020
 1. [Anomaly detection in time-series data environment][AD_20_02]
 2. [Detecting anomalies in time-series data using unsupervised learning and analysis on infrequent signatures][AD_20_01]
 
@@ -217,12 +217,11 @@ Here are some projects and experiments that are using or featuring the dataset i
 [AD_20_01]: https://www.koreascience.or.kr/article/JAKO202009252091939.page
 
 
-
 ### Testbed/Dataset 
-        #### 2021 
+#### 2021 
 1. [Probabilistic attack sequence generation and execution based on mitre att&ck for ics datasets][TB_21_01]
 
-        #### 2020
+#### 2020
 1. [Expansion of ICS testbed for security validation based on MITRE ATT&CK techniques][TB_20_01] 
 2. [Expanding a programmable cps testbed for network attack analysis][TB_20_02]
 3. [Co-occurrence based security event analysis and visualization for cyber physical systems][TB_20_03]
