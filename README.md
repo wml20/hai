@@ -103,7 +103,7 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
              <td>train5.csv</td>
              <td align=right>26 hours</td>
              <td align=right>48 MB</td>
-             <td rowspan=2 colspan=3> </td>
+             <td rowspan=2 colspan=4> </td>
         </tr>
         <tr bgcolor='#dddddd'>
              <td>train6.csv</td>
