@@ -11,7 +11,7 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 - [HAI Testbed](#hai-testbed)
 - [HAI Dataset](#hai-dataset)
 - [Getting the Dataset](#getting-the-dataset)
-- [Performance Evaluation](#performance-evaluation)
+- [Performance Metric](#performance-metric)
 - [Projects using the Dataset](#projects-using-the-dataset)
 - [Competitions](#competitions)
 - [Contributors](#contributors)
@@ -233,11 +233,13 @@ To unzip multiple gzip files, you can use:
 ```
 $ gunzip *.gz
 ```
-## Performance Evaluation
-It is strongly recommended to use the [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) method for evaluating your anomaly detection algorithm, which gives fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
+## Performance Metric
+It is strongly recommended to use the [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric to evaluate your anomaly detection model, which gives fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
 
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
+
+The related projects so far are as follows.
 ### Anomaly Detection 
 #### Year 2022 
 1. [Benchmarking machine learning based detection of cyber attacks for critical infrastructure][AD_22_03]
