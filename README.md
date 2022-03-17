@@ -400,7 +400,7 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
     <td>citation</td>
         <td>
        <code itemprop="citation">https://dl.acm.org/doi/abs/10.1145/3474718.3474719</code>
-       <code itemprop="citation">https://www.usenix.org/conference/cset19/presentation/shin</code>
+       <code itemprop="citation">https://dl.acm.org/doi/abs/10.5555/3485754.3485755</code>
        <code itemprop="citation">https://dl.acm.org/doi/10.1145/3357384.3358118</code>
        </td>
   </tr>
