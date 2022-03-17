@@ -307,7 +307,7 @@ Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min in the Affiliated In
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
 
-## References
+## Citation
 1. Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detection?][5]", In the 37th ACM/SIGAPP Symposium On Applied Computing (SAC 2022), 2022.
 2. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Two ICS Security Datasets and Anomaly Detection Contest on the HIL-based Augmented ICS Testbed][4]", In the 14th  Cyber Security Experimentation and Test (CSET '21), Pages 36–40, 2021.
 3. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][3]", In the 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET '20), Santa Clara, CA, 2020.
@@ -398,9 +398,11 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
   </tr>
    <tr>
     <td>citation</td>
-    <td><code itemprop="citation">https://www.usenix.org/conference/cset19/presentation/shin</code>
-      <code itemprop="citation">https://dl.acm.org/doi/10.1145/3357384.3358118
-      </code></td>
+        <td>
+       <code itemprop="citation">https://dl.acm.org/doi/abs/10.1145/3474718.3474719</code>
+       <code itemprop="citation">https://www.usenix.org/conference/cset19/presentation/shin</code>
+       <code itemprop="citation">https://dl.acm.org/doi/10.1145/3357384.3358118</code>
+       </td>
   </tr>
 </table>
 </div>
