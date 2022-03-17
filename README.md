@@ -252,7 +252,7 @@ The related projects so far are as follows.
 4. [Stacked-autoencoder based anomaly detection with industrial control system][AD_21_08]
 5. [Improved mitigation of cyber threats in iiot for smart cities: A new-era approach and scheme][AD_21_07]
 6. [Towards building intrusion detection systems for multivariate time-series data][AD_21_06]
-7. [Unknown payload anomaly detection based on format and field semantics inference in cyber-physical infrastructure systems][AD_21_05]
+
 8. [Revitalizing self-organizing map: Anomaly detection using forecasting error patterns][AD_21_04]
 9. [Cluster-based deep one-class classification model for anomaly detection][AD_21_03]
 10. [Measurement data intrusion detection in industrial control systems based on unsupervised learning][AD_21_02]
@@ -271,7 +271,7 @@ The related projects so far are as follows.
 [AD_21_08]: https://www.scirp.org/journal/paperinformation.aspx?paperid=106463
 [AD_21_07]: https://www.mdpi.com/1424-8220/21/6/1976
 [AD_21_06]: https://link.springer.com/chapter/10.1007/978-3-030-96057-5_4
-[AD_21_05]: https://ieeexplore.ieee.org/document/9430502
+
 [AD_21_04]: https://link.springer.com/chapter/10.1007/978-3-030-78120-0_25
 [AD_21_03]: https://jit.ndhu.edu.tw/article/view/2553
 [AD_21_02]: https://www.aimspress.com/article/doi/10.3934/aci.2021004
