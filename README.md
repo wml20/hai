@@ -314,11 +314,11 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike License (
 4. Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
 5. Seungoh Choi, Jeong-Han Yun, Sin-Kyu Kim, "[A Comparison of ICS Datasets for Security Research Based on Attack Paths][1]", In: Luiijf E., Žutautaitė I., Hämmerli B. (eds) Critical Information Infrastructures Security. CRITIS 2018. Lecture Notes in Computer Science, vol 11260. Springer, Cham.
                 
-[5]: http://www.sigapp.org/sac/sac2022/program.html "ACM-SAC2022"
+[5]: http://www.sigapp.org/sac/sac2022/program.html "SAC 2022"
 [4]: https://dl.acm.org/doi/abs/10.1145/3474718.3474719 "CSET '21"
-[3]: https://www.usenix.org/conference/cset20/presentation/shin "CSET '20"
+[3]: https://dl.acm.org/doi/abs/10.5555/3485754.3485755 "CSET '20"
 [2]: https://dl.acm.org/doi/10.1145/3357384.3358118 "CIKM '19"
-[1]: https://link.springer.com/chapter/10.1007/978-3-030-05849-4_12 "CRITIS '18"
+[1]: https://link.springer.com/chapter/10.1007/978-3-030-05849-4_12 "CRITIS 2018"
                 
 ## Dataset Metadata
 The following table is necessary for this dataset to be indexed by search
