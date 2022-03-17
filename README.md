@@ -246,8 +246,8 @@ The related projects so far are as follows.
 2. [A Hybrid Algorithm Incorporating Vector Quantization and One-Class Support Vector Machine for industrial Anomaly Detection][AD_22_02]
 3. [Variational restricted Boltzmann machines to automated anomaly detection][AD_22_01]
 #### Year 2021
-1. [Anomaly detection based on temporal behavior monitoring in programmable logic controllers][AD_21_11]
-2. [Research on improvement of anomaly detection performance in industrial control systems][AD_21_10]
+
+1. [Research on improvement of anomaly detection performance in industrial control systems][AD_21_10]
 3. [E-sfd: Explainable sensor fault detection in the ics anomaly detection system][AD_21_09]
 4. [Stacked-autoencoder based anomaly detection with industrial control system][AD_21_08]
 5. [Improved mitigation of cyber threats in iiot for smart cities: A new-era approach and scheme][AD_21_07]
@@ -265,7 +265,7 @@ The related projects so far are as follows.
 [AD_22_03]: https://ieeexplore.ieee.org/abstract/document/9687293
 [AD_22_02]: https://ieeexplore.ieee.org/abstract/document/9693317
 [AD_22_01]: https://link.springer.com/article/10.1007/s00521-022-07060-4
-[AD_21_11]: https://www.mdpi.com/2079-9292/10/10/1218
+
 [AD_21_10]: https://link.springer.com/chapter/10.1007/978-3-030-89432-0_7
 [AD_21_09]: https://ieeexplore.ieee.org/document/9568906
 [AD_21_08]: https://www.scirp.org/journal/paperinformation.aspx?paperid=106463
