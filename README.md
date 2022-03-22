@@ -28,7 +28,7 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 - HAI 21.03 was released in 2021, and is based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This provided more quantitative information and covers a variety of operational situations and better insights into the dynamic changes of the physical system.
 
-- HAI 22.04 contains more sophisticated attacks that are much more difficult to detect than previous versions. Comparing only the baseline TaPRs of HAICon 2020 and 2021, the detection difficulty is approximately four times higher than that of HAI 21.04.
+- HAI 22.04 contains more sophisticated attacks that are much more difficult to detect than previous versions. Comparing only the baseline TaPRs of HAICon 2020 and 2021, the detection difficulty is approximately four times higher than HAI 21.04.
 
 ## HAI Testbed
 The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
