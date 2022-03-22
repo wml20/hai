@@ -296,7 +296,7 @@ The related projects so far are as follows.
          
                 
 ## Competitions 
-Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline and winner code.
+Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline codes and winner's codes.
  * HAICon 2020 (HAI 22.04): https://dacon.io/competitions/official/235624/overview/description
  * HAICon 2021 (HAI 21.03): https://dacon.io/en/competitions/official/235757/overview/description
         
