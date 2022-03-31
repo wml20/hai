@@ -15,7 +15,7 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 - [Projects using the Dataset](#projects-using-the-dataset)
 - [Competitions](#competitions)
 - [Contributors](#contributors)
-- [References](#references)
+- [Citation](#citation)
 
 
 ## Background
@@ -64,62 +64,62 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
     </thead>
     <tbody>
           <tr bgcolor='#dddddd'>
-            <td rowspan=7 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-22.03"> HAI 22.03<a></b> </td>
-            <td rowspan=7> 78 points/sec</td>
+            <td rowspan=7 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-22.03"> HAI 22.04<a></b> </td>
+            <td rowspan=7> 86 points/sec</td>
             <td> train1.csv</td>
-             <td align=right>60 hours</td>
-             <td align=right>100 MB</td>
+             <td align=right>26 hours</td>
+             <td align=right>51 MB</td>
              <td> test1.csv</td>
-             <td align=right>5 attacks</td>
-             <td align=right>12 hours</td>
-             <td align=right>22 MB</td>
+             <td align=right>7 attacks</td>
+             <td align=right>24 hours</td>
+             <td align=right>48 MB</td>
           </tr>
           <tr >
              <td>train2.csv</td>
-             <td align=right>63 hours</td>
-             <td align=right>116 MB</td>
+             <td align=right>56 hours</td>
+             <td align=right>109 MB</td>
              <td>test2.csv</td>
-             <td align=right>20 attacks</td>
-             <td align=right>33 hours</td>
-             <td align=right>62 MB</td>
+             <td align=right>17 attacks</td>
+             <td align=right>23 hours</td>
+             <td align=right>45 MB</td>
         </tr>
         <tr bgcolor='#dddddd'>
              <td>train3.csv</td>
-             <td align=right>229 hours</td>
-             <td align=right>246 MB</td>
+             <td align=right>35 hours</td>
+             <td align=right>67 MB</td>
              <td>test3.csv</td>
-             <td align=right>8 attacks</td>
-             <td align=right>30 hours</td>
-             <td align=right>56 MB</td>
+             <td align=right>10 attacks</td>
+             <td align=right>17 hours</td>
+             <td align=right>33 MB</td>
         </tr>
         <tr>
              <td>train4.csv</td>
-             <td align=right>229 hours</td>
-             <td align=right>246 MB</td>
+             <td align=right>24 hours</td>
+             <td align=right>46 MB</td>
              <td>test4.csv</td>
-             <td align=right>5 attacks</td>
-             <td align=right>11 hours</td>
-             <td align=right>20 MB</td>
+             <td align=right>24 attacks</td>
+             <td align=right>36 hours</td>
+             <td align=right>70 MB</td>
         </tr>
         <tr bgcolor='#dddddd'> 
              <td>train5.csv</td>
-             <td align=right>26 hours</td>
-             <td align=right>48 MB</td>
+             <td align=right>66 hours</td>
+             <td align=right>125 MB</td>
              <td rowspan=2 colspan=4> </td>
         </tr>
         <tr>
              <td>train6.csv</td>
-             <td align=right>26 hours</td>
-             <td align=right>48 MB</td>
+             <td align=right>72 hours</td>
+             <td align=right>137 MB</td>
         </tr>       
         <tr >
             <td > <b>Total</b></td>
-            <td align=right> <b>26 hours</b></td>
-            <td align=right><b>48 MB</b></td>
+            <td align=right> <b>279 hours</b></td>
+            <td align=right><b>534 MB</b></td>
             <td><b>Total</td>
-             <td align=right><b>5 attacks</b></td>
-             <td align=right><b>11 hours</b></td>
-             <td align=right><b>20 MB</b></td>
+             <td align=right><b>58 attacks</b></td>
+             <td align=right><b>100 hours</b></td>
+             <td align=right><b>196 MB</b></td>
         </tr>
         <tr bgcolor='#dddddd'>
             <td rowspan=6 align=center><b><a href="https://github.com/icsdataset/hai/tree/master/hai-21.03"> HAI 21.03<a></b> </td>
@@ -165,12 +165,12 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
         </tr>
         <tr >
             <td > <b>Total</b></td>
-            <td align=right> <b>26 hours</b></td>
-            <td align=right><b>48 MB</b></td>
+            <td align=right> <b>352 hours</b></td>
+            <td align=right><b>471 MB</b></td>
             <td><b>Total</td>
-             <td align=right><b>5 attacks</b></td>
-             <td align=right><b>11 hours</b></td>
-             <td align=right><b>20 MB</b></td>
+             <td align=right><b>50 attacks</b></td>
+             <td align=right><b>112 hours</b></td>
+             <td align=right><b>205 MB</b></td>
         </tr>
         <tr >
             <td rowspan=3 align=center> <b><a href="https://github.com/icsdataset/hai/tree/master/hai-20.07"> HAI 20.07<a> </b><br> (HAI1.0)</td>
@@ -194,12 +194,12 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
         </tr>
            <tr >
             <td > <b>Total</b></td>
-            <td align=right> <b>26 hours</b></td>
-            <td align=right><b>48 MB</b></td>
+            <td align=right> <b>177 hours</b></td>
+            <td align=right><b>225 MB</b></td>
             <td><b>Total</td>
-             <td align=right><b>5 attacks</b></td>
-             <td align=right><b>11 hours</b></td>
-             <td align=right><b>20 MB</b></td>
+             <td align=right><b>38 attacks</b></td>
+             <td align=right><b>123 hours</b></td>
+             <td align=right><b>181 MB</b></td>
                 </tr>
     </tbody>
 </table>
@@ -308,17 +308,20 @@ Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min in the Affiliated In
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Citation
-1. Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detection?][5]", In the 37th ACM/SIGAPP Symposium On Applied Computing (SAC 2022), 2022.
-2. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Two ICS Security Datasets and Anomaly Detection Contest on the HIL-based Augmented ICS Testbed][4]", In the 14th  Cyber Security Experimentation and Test (CSET '21), Pages 36–40, 2021.
-3. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][3]", In the 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET '20), Santa Clara, CA, 2020.
-4. Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
-5. Seungoh Choi, Jeong-Han Yun, Sin-Kyu Kim, "[A Comparison of ICS Datasets for Security Research Based on Attack Paths][1]", In: Luiijf E., Žutautaitė I., Hämmerli B. (eds) Critical Information Infrastructures Security. CRITIS 2018. Lecture Notes in Computer Science, vol 11260. Springer, Cham.
+             
+
+[HAI 21.03, HAICon 2020]. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Two ICS Security Datasets and Anomaly Detection Contest on the HIL-based Augmented ICS Testbed][4]", In the 14th  Cyber Security Experimentation and Test (CSET '21), Pages 36–40, 2021.
+                
+[HAI 20.03] Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][3]", In the 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET '20), Santa Clara, CA, 2020.
+                
+[eTaPR] Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detection?][5]", In the 37th ACM/SIGAPP Symposium On Applied Computing (SAC 2022), 2022.
+                
+[TaPR] Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
                 
 [5]: http://www.sigapp.org/sac/sac2022/program.html "SAC 2022"
 [4]: https://dl.acm.org/doi/abs/10.1145/3474718.3474719 "CSET '21"
 [3]: https://dl.acm.org/doi/abs/10.5555/3485754.3485755 "CSET '20"
 [2]: https://dl.acm.org/doi/10.1145/3357384.3358118 "CIKM '19"
-[1]: https://link.springer.com/chapter/10.1007/978-3-030-05849-4_12 "CRITIS 2018"
                 
 ## Dataset Metadata
 The following table is necessary for this dataset to be indexed by search
