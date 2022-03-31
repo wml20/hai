@@ -53,7 +53,7 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
             <th colspan=4>Attack Dataset</th>
         </tr>
          <tr>
-            <th>Files</th>
+            <th>File Name</th>
             <th>Interval</th>
             <th>Size</th>
             <th>Files</th>
@@ -208,7 +208,10 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
 ### Data fields 
                 
 The time-series data in each CSV file satisfies time continuity. The first column represents the observed time as “yyyy-MM-dd hh:mm:ss,” while the rest columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred or not, where the attack column was applicable to all process and the other three columns were for the corresponding control processes.
+                
 > Refer to the **latest technical manual** for the details for each column.
+                
+> From HAI 22.04 version, attack labels for each process (attack_p1, attack_p2, attack p3) are excluded. This is because they can be replaced by attack targets (controllers and points) provided for each dataset version.
                 
 <div align="center">
     
