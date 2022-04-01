@@ -311,20 +311,56 @@ Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min in the Affiliated In
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Citation
-             
+If you publish your works that use HAI data sets, HAICon competitions, and eTaPR, please cite the sources below:             
 
-[HAI 21.03, HAICon 2020]. Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[Two ICS Security Datasets and Anomaly Detection Contest on the HIL-based Augmented ICS Testbed][4]", In the 14th  Cyber Security Experimentation and Test (CSET '21), Pages 36–40, 2021.
+#### HAI 21.03, HAICon 2020
+```bibtex
+@inproceedings{10.1145/3474718.3474719,
+    author = {Shin, Hyeok-Ki and Lee, Woomyo and Yun, Jeong-Han and Min, Byung-Gil},
+    title = {Two ICS Security Datasets and Anomaly Detection Contest on the HIL-Based Augmented ICS Testbed},
+    year = {2021},
+    isbn = {9781450390651},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3474718.3474719},
+    doi = {10.1145/3474718.3474719},
+    abstract = {Security datasets with various operating characteristics and abnormal situations of industrial control system (ICS) are essential to develop artificial intelligence (AI)-based control system security technology. In this study, we built a hardware-in-the-loop (HIL)-based augmented ICS (HAI) testbed and developed ICS security datasets. Here, we introduce the second dataset (HAI 21.03), which was developed with the user feedback of the first released version (HAI 20.07). All HAI datasets are publicly available at https://github.com/icsdataset/hai. HAI 21.03 was expanded by adding data points and normal/attack scenarios to HAI 20.07. We also held an AI-based anomaly detection contest (HAICon 2020) utilizing the HAI datasets developed so far, giving many AI researchers an opportunity to discuss and share ideas for ICS anomaly detection research. This paper presents the results of the HAICon 2020. The results of the top teams in the competition can be used as a performance comparison criterion when using HAI 21.03. },
+    booktitle = {Cyber Security Experimentation and Test Workshop},
+    pages = {36–40},
+    numpages = {5},
+    keywords = {security dataset, testbed, artificial intelligence, hardware-in-the-loop, industrial control system, anomaly detection},
+    location = {Virtual, CA, USA},
+    series = {CSET '21}
+}
+```
                 
-[HAI 20.03] Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and HyoungChun Kim, "[HAI 1.0: HIL-based Augmented ICS Security Dataset][3]", In the 13th USENIX Workshop on Cyber Security Experimentation and Test (CSET '20), Santa Clara, CA, 2020.
-                
-[eTaPR] Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detection?][5]", In the 37th ACM/SIGAPP Symposium On Applied Computing (SAC 2022), 2022.
-                
-[TaPR] Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim and HyoungChun Kim, "[Time-Series Aware Precision and Recall for Anomaly Detection: Considering Variety of Detection Result and Addressing Ambiguous Labeling][2]", CIKM '19:Proceedings of the 28th ACM International Conference on Information and Knowledge Management, pp.2241-2244, 2019.
-                
-[5]: http://www.sigapp.org/sac/sac2022/program.html "SAC 2022"
-[4]: https://dl.acm.org/doi/abs/10.1145/3474718.3474719 "CSET '21"
-[3]: https://dl.acm.org/doi/abs/10.5555/3485754.3485755 "CSET '20"
-[2]: https://dl.acm.org/doi/10.1145/3357384.3358118 "CIKM '19"
+#### HAI 20.03
+```bibtex
+@inbook{10.5555/3485754.3485755,
+    author = {Shin, Hyeok-Ki and Lee, Woomyo and Yun, Jeong-Han and Kim, HyoungChun},
+    title = {HAI 1.0: HIL-Based Augmented ICS Security Dataset},
+    year = {2020},
+    publisher = {USENIX Association},
+    address = {USA},
+    abstract = {Datasets are paramount to the development of AI-based technologies. However, the available cyber-physical system (CPS) datasets are insufficient. In this paper, we introduce the HIL-based augmented ICS security (HAI) dataset 1.0 (https://github.com/icsdataset/hai), the first CPS dataset collected using the HAI testbed. The HAI testbed comprises three physical control systems, namely GE turbine, Emerson boiler, and FESTO water treatment systems, combined through a dSPACE hardware-in-the-loop (HIL) simulator. We built an environment to remotely and automatically manipulate all components of a feedback control loop. Using this environment, we collected the HAI dataset 1.0 while repeatedly running a large number of benign and malicious scenarios for a long period with minimal human effort. We will continue to improve the HAI testbed and release new versions of the HAI dataset.},
+    booktitle = {Proceedings of the 13th USENIX Conference on Cyber Security Experimentation and Test},
+    articleno = {1},
+    numpages = {1}
+}
+```
+                        
+#### eTaPR
+```bibtex
+@inproceedings{ 
+    author = {Won-Seok Hwang, Jeong-Han Yun, Jonguk Kim, HyoungChun Kim},
+    title = {Do You Know Existing Accuracy Metrics Overrate Time-Series Anomaly Detection?},
+    year = {2022},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Virtual Event},
+    series = {SAC '22}
+}
+```
                 
 ## Dataset Metadata
 The following table is necessary for this dataset to be indexed by search
