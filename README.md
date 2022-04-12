@@ -1,9 +1,9 @@
 
 
 # HAI (HIL-based Augmented ICS) Security Dataset
-The HAI dataset was collected from a realistic industiral control system (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
+The HAI dataset was collected from a realistic industrial control system (ICS) testbed augmented with a hardware-in-the-loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
 
-Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details_v2.0.pdf) to find out more about HAI dataset.
+Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details_v2.0.pdf) to find out more about the HAI dataset.
 > Please e-mail us [here](mailto:hkshin721@nsr.re.kr?subject=[GitHub-HAI]%20) if you have any questions about the dataset.
 
 ## Contents
@@ -20,29 +20,29 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 ## Background
 
-- In 2017, three laboratory-scale CPS testbeds were initially launched, namely GE’s turbine testbed, Emerson’s boiler testbed, and FESTO’s modular production system (MPS) water-treatment testbed. These testbeds were related to relatively simple processes, and were operated independently of each other.
+- In 2017, three laboratory-scale CPS testbeds were initially launched, namely GE’s turbine testbed, Emerson’s boiler testbed, and FESTO’s modular production system (MPS) water-treatment testbed. These testbeds are related to relatively simple processes, and were operated independently of each other.
 
-- In 2018, a complex process system was built to combine the three systems using a hardware-in-the-loop (HIL) simulator, where thermal power generation and pumped-storage hydropower generation were simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
+- In 2018, a complex process system was built to combine the three systems using a HIL simulator, where thermal power generation and pumped-storage hydropower generation were simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
 
-- The first version of HAI dataset, HAI 1.0,  was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from both normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
+- The first version of the HAI dataset, that is, HAI 1.0, was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
 
-- HAI 21.03 was released in 2021, and is based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This provided more quantitative information and covers a variety of operational situations and better insights into the dynamic changes of the physical system.
+- HAI 21.03 was released in 2021, and was based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This version provides more quantitative information, covers various operational situations, and provides better insights into the dynamic changes of the physical system.
 
-- HAI 22.04 contains more sophisticated attacks that are much more difficult to detect than previous versions. Comparing only the baseline TaPRs of HAICon 2020 and 2021, the detection difficulty is approximately four times higher than HAI 21.04.
+- HAI 22.04 contained more sophisticated attacks that are significantly more difficult to detect than those in the previous versions. Comparing only the baseline TaPRs of HAICon 2020 and HAICon 2021, detection difficulty in HAI 22.04 is approximately four times higher than HAI 21.04.
 
 ## HAI Testbed
-The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
+The testbed consists of four different processes: boiler process, turbine process, water treatement process and HIL simulation:
 
-- **Boiler Process (P1):** A water-to-water heat-trasfer process with low pressure and moderate temperature. It is controlled by Emerson's Ovation DCS.
+- **Boiler Process (P1):** This includes water-to-water heat trasfer at a low pressure and a moderate temperature. This process is controlled using Emerson Ovation DCS.
 - **Turbine Process (P2):** A rotor kit process that closely simulates the behavior of an actual rotating machine. It is controlled by GE's Mark VIe DCS.
-- **Water-treatment Process (P3):** A water-treatment process that includes the pumping of water to the upper reservoir and releasing it back into the lower reservoir. It is controlled by Siemens's S7-300 PLC.
+- **Water Treatment Process (P3):** This process includes pumping water to the upper reservoir and releasing it back into the lower reservoir. It is controlled by Siemens's S7-300 PLC.
 
-- **HIL Simulation(P4):** Both of the boiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE's SCALEXIO system is used for HIL simulations and is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on OPC gateway.
+- **HIL Simulation(P4):** Both the boiler and turbine processes are interconnected to synchronize with the rotating speed of the virtual steam-turbine power generation model. The pump and value in the water treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE's SCALEXIO system is used for the HIL simulations and is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on the OPC gateway.
 
 
 ## HAI Dataset
 Two major versions of HAI datasets have been released thus far. Each dataset consists of several CSV files, and each file satisfies time continuity. The quantitative summary of each version are as follows:
-> **Note:** The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of HAI dataset.  HAI 20.07 is the bug-fixed one of the first version HAI v1.0 released in February 2020.
+> **Note:** The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of the HAI dataset.  HAI 20.07 is the bug-fixed version of the HAI v1.0 released in February 2020.
 
 <table align=center >
     <thead  align=center>
@@ -207,11 +207,11 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
                 
 ### Data fields 
                 
-The time-series data in each CSV file satisfies time continuity. The first column represents the observed time as “yyyy-MM-dd hh:mm:ss,” while the rest columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred or not, where the attack column was applicable to all process and the other three columns were for the corresponding control processes.
+The time-series data in each CSV file satisfies time continuity. The first column represents the observed time in the “yyyy-MM-dd hh:mm:ss” format, while the rest of the columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred or not. Out of these four columns, the attack column is applicable to all the processes and the other three columns are to the corresponding control processes.
                 
 > Refer to the **latest technical manual** for the details for each column.
                 
-> From HAI 22.04 version, attack labels for each process (attack_p1, attack_p2, attack p3) are excluded. This is because they can be replaced by attack targets (controllers and points) provided for each dataset version.
+> From the HAI 22.04 version, attack labels for each process (attack_p1, attack_p2, attack p3) have been excluded. This is because they can be replaced by the attack targets (controllers and points) provided for each dataset version.
                 
 <div align="center">
     
@@ -226,7 +226,7 @@ The time-series data in each CSV file satisfies time continuity. The first colum
 </div>
 
 ## Getting the dataset
->  **NOTICE:** All data files are compressed by the standard GNU zip (gzip) due to a strict maximum size limit of 100 MB for individual files in a repository.
+>  **NOTICE:** All data files are compressed using standard GNU zip (gzip) owing to the strict size limit of 100 MB for individual files in a repository.
 
 Type ```git clone```, and the paste the below URL. 
 ```
@@ -237,7 +237,7 @@ To unzip multiple gzip files, you can use:
 $ gunzip *.gz
 ```
 ## Performance Metric
-It is strongly recommended to use the [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric to evaluate your anomaly detection model, which gives fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
+Use the [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric is strongly recommended to evaluate your anomaly detection model, which provides fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
 
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
@@ -299,13 +299,13 @@ The related projects so far are as follows.
          
                 
 ## Competitions 
-Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline codes and winner's codes.
+Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline codes and the winner's codes.
  * HAICon 2020 (HAI 22.04): https://dacon.io/competitions/official/235624/overview/description
  * HAICon 2021 (HAI 21.03): https://dacon.io/en/competitions/official/235757/overview/description
         
                 
 ## Contributors
-Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min in the Affiliated Institute of ETRI, Daejeon, South Korea.
+Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min from the Affiliated Institute of ETRI, Daejeon, South Korea.
                 
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
