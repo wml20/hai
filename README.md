@@ -24,20 +24,20 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 - In 2018, a complex process system was built to combine the three systems using a HIL simulator, where generation of thermal power and pumped-storage hydropower was simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
 
-- The first version of HAI dataset, HAI 1.0,  was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from both normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
+- The first version of HAI dataset, HAI 1.0,  was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
 
-- HAI 21.03 was released in 2021, and is based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This provided more quantitative information and covers a variety of operational situations and better insights into the dynamic changes of the physical system.
+- HAI 21.03 was released in 2021, and was based on a more tightly coupled HIL simulator to produce clearer attack effects with additional attacks. This version provides more quantitative information and covers a variety of operational situations, and provides better insights into the dynamic changes of the physical system.
 
-- HAI 22.04 contains more sophisticated attacks that are much more difficult to detect than previous versions. Comparing only the baseline TaPRs of HAICon 2020 and 2021, the detection difficulty is approximately four times higher than HAI 21.04.
+- HAI 22.04 contained more sophisticated attacks that are significantly more difficult to detect than those in the previous versions. Comparing only the baseline TaPRs of HAICon 2020 and HAICon 2021, detection difficulty in HAI 22.04 is approximately four times higher than HAI 21.03.
 
 ## HAI Testbed
-The testbed consists of four different processes: boiler, turbine, water-treatement and HIL simulation:
+The testbed consists of four different processes: boiler process, turbine process, water treatement process and HIL simulation:
 
-- **Boiler Process (P1):** A water-to-water heat-trasfer process with low pressure and moderate temperature. It is controlled by Emerson's Ovation DCS.
+- **Boiler Process (P1):** This includes water-to-water heat trasfer at a low pressure and a moderate temperature. This process is controlled using Emerson Ovation DCS.
 - **Turbine Process (P2):** A rotor kit process that closely simulates the behavior of an actual rotating machine. It is controlled by GE's Mark VIe DCS.
-- **Water-treatment Process (P3):** A water-treatment process that includes the pumping of water to the upper reservoir and releasing it back into the lower reservoir. It is controlled by Siemens's S7-300 PLC.
+- **Water treatment Process (P3):** This process includes pumping water to the upper reservoir and releasing it back into the lower reservoir. It is controlled by Siemens's S7-300 PLC.
 
-- **HIL Simulation(P4):** Both of the boiler and turbine processes are interconnected to reamin sychronous with the rotating speed of the virtual steam-trubine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE's SCALEXIO system is used for HIL simulations and is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on OPC gateway.
+- **HIL Simulation(P4):** Both the boiler and turbine processes are interconnected to synchronize with the rotating speed of the virtual steam-turbine power generation model. The pump and value in the water-treatment process are controlled by the pumped-storage hydropower generation model. The dSPACE's SCALEXIO system is used for the HIL simulations and is interconnected with the real-world processes through a Siemens S7-1500 PLC and ET200 remote IO devices for data-acquisition system based on the OPC gateway.
 
 
 ## HAI Dataset
