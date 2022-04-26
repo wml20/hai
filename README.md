@@ -42,7 +42,7 @@ The testbed consists of four different processes: boiler process, turbine proces
 
 ## HAI Dataset
 Two major versions of HAI datasets have been released thus far. Each dataset consists of several CSV files, and each file satisfies time continuity. The quantitative summary of each version are as follows:
-> **Note:** The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of HAI dataset.  HAI 20.07 is the bug-fixed one of the first version HAI v1.0 released in February 2020.
+> **Note:** The **version numbering** follows a **date-based scheme**, where the version number indicates the released date of the HAI dataset.  HAI 20.07 is the bug-fixed version of HAI v1.0 released in February 2020.
 
 <table align=center >
     <thead  align=center>
@@ -207,11 +207,11 @@ Two major versions of HAI datasets have been released thus far. Each dataset con
                 
 ### Data fields 
                 
-The time-series data in each CSV file satisfies time continuity. The first column represents the observed time as “yyyy-MM-dd hh:mm:ss,” while the rest columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred or not, where the attack column was applicable to all process and the other three columns were for the corresponding control processes.
+The time-series data in each CSV file satisfies time continuity. The first column represents the observed time in the “yyyy-MM-dd hh:mm:ss” format, while the rest of the columns provide the recorded SCADA data points. The last four columns provide data labels for whether an attack occurred or not. Out of these four columns, is applicable to all the process and the other three columns are applicable to the corresponding control processes.
                 
 > Refer to the **latest technical manual** for the details for each column.
                 
-> From HAI 22.04 version, attack labels for each process (attack_p1, attack_p2, attack p3) are excluded. This is because they can be replaced by attack targets (controllers and points) provided for each dataset version.
+> From the HAI 22.04 version, attack labels for each process (attack_p1, attack_p2, attack p3) have been excluded. This is because they can be replaced by the attack targets (controllers and points) provided for each dataset version.
                 
 <div align="center">
     
@@ -226,7 +226,7 @@ The time-series data in each CSV file satisfies time continuity. The first colum
 </div>
 
 ## Getting the dataset
->  **NOTICE:** All data files are compressed by the standard GNU zip (gzip) due to a strict maximum size limit of 100 MB for individual files in a repository.
+>  **NOTICE:** All data files are compressed using standard GNU zip (gzip) owing to the strict size limit of 100 MB for individual files in a repository.
 
 Type ```git clone```, and the paste the below URL. 
 ```
@@ -237,7 +237,7 @@ To unzip multiple gzip files, you can use:
 $ gunzip *.gz
 ```
 ## Performance Metric
-It is strongly recommended to use the [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric to evaluate your anomaly detection model, which gives fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
+Use of [eTaPR (Enhanced Time-series Aware Precision and Recall)](https://github.com/saurf4ng/eTaPR) metric is strongly recommended to evaluate your anomaly detection model, which provides fairness to performance comparisons with other studies. Got something to suggest? [Let us know!](mailto:hws23@nsr.re.kr?subject=[GitHub-eTaPR]%20)
 
 ## Projects using the dataset
 Here are some projects and experiments that are using or featuring the dataset in interesting ways. Got something to add? [Let us know!](mailto:dolgam@nsr.re.kr?subject=[GitHub-HAI]%20)
@@ -299,13 +299,13 @@ The related projects so far are as follows.
          
                 
 ## Competitions 
-Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline codes and winner's codes.
+Since 2020, we have held two AI competitions using the HAI dataset. The competition website shares the competition baseline codes and the winner's codes.
  * HAICon 2020 (HAI 22.04): https://dacon.io/competitions/official/235624/overview/description
  * HAICon 2021 (HAI 21.03): https://dacon.io/en/competitions/official/235757/overview/description
         
                 
 ## Contributors
-Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min in the Affiliated Institute of ETRI, Daejeon, South Korea.
+Hyeok-Ki Shin, Woomyo Lee, Jeong-Han Yun, and Byung-Gil Min from the Affiliated Institute of ETRI, Daejeon, South Korea.
                 
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike License (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/).
