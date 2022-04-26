@@ -3,7 +3,7 @@
 # HAI (HIL-based Augmented ICS) Security Dataset
 The HAI dataset was collected from a realistic industiral control system (ICS) testbed augmented with a Hardware-In-the-Loop (HIL) simulator that emulates steam-turbine power generation and pumped-storage hydropower generation. 
 
-Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details_v2.0.pdf) to find out more about HAI dataset.
+Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical_details_v2.0.pdf) to find out more about the HAI dataset.
 > Please e-mail us [here](mailto:hkshin721@nsr.re.kr?subject=[GitHub-HAI]%20) if you have any questions about the dataset.
 
 ## Contents
@@ -20,9 +20,9 @@ Click [here](https://github.com/icsdataset/hai/blob/master/hai_dataset_technical
 
 ## Background
 
-- In 2017, three laboratory-scale CPS testbeds were initially launched, namely GE’s turbine testbed, Emerson’s boiler testbed, and FESTO’s modular production system (MPS) water-treatment testbed. These testbeds were related to relatively simple processes, and were operated independently of each other.
+- In 2017, three laboratory-scale CPS testbeds were initially launched, namely GE’s turbine testbed, Emerson’s boiler testbed, and FESTO’s modular production system (MPS) water-treatment testbed. These testbeds are related to relatively simple processes, and were operated independently of each other.
 
-- In 2018, a complex process system was built to combine the three systems using a hardware-in-the-loop (HIL) simulator, where thermal power generation and pumped-storage hydropower generation were simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
+- In 2018, a complex process system was built to combine the three systems using a HIL simulator, where generation of thermal power and pumped-storage hydropower was simulated. This ensured that the variables were highly coupled and correlated for a richer dataset. In addition, an open platform communications united architecture (OPC-UA) gateway was installed to facilitate data collection from heterogeneous devices.
 
 - The first version of HAI dataset, HAI 1.0,  was made available on GitHub and Kaggle in February 2020. This dataset included ICS operational data from both normal and anomalous situations for 38 attacks. Subsequently, a debugged version of HAI 1.0, namely HAI 20.07, was released for the HAICon 2020 competition in August 2020.
 
